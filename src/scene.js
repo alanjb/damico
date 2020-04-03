@@ -1,4 +1,9 @@
-var createScene = function() {
+import * as BABYLON from 'babylonjs';
+
+var buildScene = () => {
+    var canvas = document.getElementById("renderCanvas"); // Get the canvas element
+    var engine = new BABYLON.Engine(canvas, true); // Generate the BABYLON 3D engine
+
     // Create the scene space
     var scene = new BABYLON.Scene(engine);
   

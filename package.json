@@ -1,0 +1,23 @@
+{
+  "name": "damico",
+  "version": "1.0.0",
+  "description": "3D environment for simulations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanjb/damico.git"
+  },
+  "author": "alanjb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanjb/damico/issues"
+  },
+  "homepage": "https://github.com/alanjb/damico#readme",
+  "dependencies": {
+    "babylonjs": "^4.1.0"
+  }
+}
